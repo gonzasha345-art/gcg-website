@@ -1,0 +1,159 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(247, 244, 239, 0.96);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.brand__logo {
+  width: 64px;
+  height: 64px;
+}
+
+.brand__name,
+.brand__tagline {
+  display: block;
+}
+
+.brand__name {
+  font-weight: 700;
+}
+
+.brand__tagline {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav__link {
+  display: inline-flex;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.site-nav__link:hover,
+.site-nav__link--active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  background: #1e2918;
+  color: #eef2eb;
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.site-footer h2 {
+  margin-top: 0;
+  color: var(--secondary-soft);
+  font-size: 1.1rem;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+  color: rgba(238, 242, 235, 0.85);
+}
+
+.site-footer__bar {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.site-footer__bar p {
+  margin: 0;
+  padding: 1rem 0 1.25rem;
+  color: rgba(238, 242, 235, 0.72);
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.service-card__image {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+.service-card__body {
+  padding: 1.5rem;
+}
+
+.service-card__body h3 {
+  margin-top: 0;
+}
+
+.service-card__body ul {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .site-header__inner,
+  .site-footer__inner,
+  .service-card {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header__inner {
+    display: grid;
+  }
+
+  .site-nav ul {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand {
+    align-items: flex-start;
+  }
+
+  .brand__logo {
+    width: 52px;
+    height: 52px;
+  }
+}

@@ -1,0 +1,13 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="40" fill="#F1E6D9"/>
+  <rect x="110" y="188" width="430" height="292" rx="20" fill="#FFFFFF"/>
+  <path d="M170 326L324 210L478 326V480H390V380H258V480H170V326Z" fill="#2E6417"/>
+  <rect x="566" y="146" width="212" height="334" rx="24" fill="#2E6417" fill-opacity="0.12"/>
+  <rect x="606" y="208" width="130" height="18" rx="9" fill="#2E6417"/>
+  <rect x="606" y="252" width="100" height="18" rx="9" fill="#BB7848"/>
+  <rect x="606" y="296" width="140" height="18" rx="9" fill="#2E6417"/>
+  <rect x="606" y="340" width="86" height="18" rx="9" fill="#BB7848"/>
+  <circle cx="708" cy="430" r="48" fill="#BB7848"/>
+  <path d="M682 430L700 448L734 412" stroke="#FFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="110" y="585" fill="#1D2518" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Residential Construction</text>
+</svg>
