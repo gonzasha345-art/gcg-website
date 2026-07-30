@@ -7,11 +7,11 @@ function Header() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link className="brand" to="/" aria-label="Gonzales Construction Group home">
-          <img src="/assets/logo.svg" alt="Gonzales Construction Group logo" className="brand__logo" />
-          <div>
+          <img src={`${process.env.PUBLIC_URL}/assets/gonzales_constructionlogo.png`} alt="Gonzales Construction Group logo" className="brand__logo" />
+          {/* <div>
             <span className="brand__name">Gonzales Construction Group LLC</span>
             <span className="brand__tagline">Residential Contracting &amp; Concrete Work</span>
-          </div>
+          </div> */}
         </Link>
         <Navigation />
       </div>

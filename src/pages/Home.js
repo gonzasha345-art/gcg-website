@@ -18,7 +18,7 @@ function Home() {
               <Link className="button button--secondary" to="/services">Explore Services</Link>
             </div>
           </div>
-          <img src="/assets/hero-placeholder.svg" alt="Illustration of a residential construction project" className="hero-section__image" />
+          <img src={`${process.env.PUBLIC_URL}/assets/gonzales_constructionlogo (4).png`} alt="Illustration of a residential construction project" className="hero-section__image" />
         </div>
       </section>
 

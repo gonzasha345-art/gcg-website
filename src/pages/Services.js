@@ -7,7 +7,7 @@ const services = [
     description:
       'Comprehensive support for homeowners who need an experienced contractor to manage planning, construction, and finishing details.',
     highlights: ['Renovation and repair support', 'Framing and carpentry coordination', 'Project scheduling and oversight'],
-    image: '/assets/contracting-placeholder.svg',
+    image: `${process.env.PUBLIC_URL}/assets/contracting-placeholder.svg`,
     alt: 'Illustration representing residential contracting work',
   },
   {
@@ -15,7 +15,7 @@ const services = [
     description:
       'Concrete solutions designed for stability, appearance, and long-term wear across residential properties.',
     highlights: ['Driveways, sidewalks, and patios', 'Foundations, pads, and slab preparation', 'Finishing, curing, and site cleanup'],
-    image: '/assets/concrete-placeholder.svg',
+    image: `${process.env.PUBLIC_URL}/assets/concrete-placeholder.svg`,
     alt: 'Illustration representing residential concrete work',
   },
 ];

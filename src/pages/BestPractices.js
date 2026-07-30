@@ -38,7 +38,7 @@ function BestPractices() {
           </article>
         ))}
       </div>
-      <img src="/assets/quality-placeholder.svg" alt="Illustration representing construction quality best practices" className="best-practices-page__image" />
+      <img src={`${process.env.PUBLIC_URL}/assets/gonzales_constructionlogo (3).png`} alt="Illustration representing construction quality best practices" className="best-practices-page__image" />
     </section>
   );
 }

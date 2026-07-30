@@ -22,8 +22,10 @@
 }
 
 .brand__logo {
-  width: 64px;
-  height: 64px;
+  display: block;
+  width: 240px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .brand__name,
@@ -149,11 +151,24 @@
 
 @media (max-width: 600px) {
   .brand {
-    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .brand > div {
+    display: none;
   }
 
   .brand__logo {
-    width: 52px;
-    height: 52px;
+    width: 200px;
+  }
+
+  .site-nav ul {
+    justify-content: center;
+    gap: 0.15rem;
+  }
+
+  .site-nav__link {
+    padding: 0.55rem 0.5rem;
+    font-size: 0.875rem;
   }
 }
