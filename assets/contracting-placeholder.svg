@@ -1,0 +1,10 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#F5EFE7"/>
+  <rect x="72" y="84" width="656" height="352" rx="28" fill="#FFFFFF"/>
+  <path d="M180 266L318 154L456 266V376H376V300H260V376H180V266Z" fill="#2E6417"/>
+  <rect x="506" y="162" width="122" height="18" rx="9" fill="#BB7848"/>
+  <rect x="506" y="206" width="166" height="18" rx="9" fill="#2E6417"/>
+  <rect x="506" y="250" width="142" height="18" rx="9" fill="#BB7848"/>
+  <rect x="506" y="294" width="110" height="18" rx="9" fill="#2E6417"/>
+  <text x="72" y="472" fill="#1D2518" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Residential Contracting</text>
+</svg>

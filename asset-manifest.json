@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gcg-website/static/css/main.3959b6db.css",
+    "main.js": "/gcg-website/static/js/main.f4cd8a75.js",
+    "static/js/453.f7bbef5b.chunk.js": "/gcg-website/static/js/453.f7bbef5b.chunk.js",
+    "index.html": "/gcg-website/index.html",
+    "main.3959b6db.css.map": "/gcg-website/static/css/main.3959b6db.css.map",
+    "main.f4cd8a75.js.map": "/gcg-website/static/js/main.f4cd8a75.js.map",
+    "453.f7bbef5b.chunk.js.map": "/gcg-website/static/js/453.f7bbef5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3959b6db.css",
+    "static/js/main.f4cd8a75.js"
+  ]
+}
