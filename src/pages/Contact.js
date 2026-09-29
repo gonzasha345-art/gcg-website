@@ -69,13 +69,13 @@ function Contact() {
           <h2>Company Information</h2>
           <ul>
             <li><strong>Company:</strong> Gonzales Construction Group LLC</li>
+            <li><strong>Phone:</strong> 260-341-1351</li>
             <li><strong>Specialties:</strong> Residential contracting and concrete work</li>
             <li><strong>Hours:</strong> Monday - Friday, 8:00 AM - 5:00 PM</li>
             <li><strong>Response Goal:</strong> Estimate requests acknowledged within one business day</li>
           </ul>
           <p>
-            Placeholder contact assets are included in this starter site so your production phone number, email, and
-            service area can be updated easily before launch.
+            Reach out to discuss residential contracting and concrete work needs, or request a consultation for your next project.
           </p>
         </aside>
       </div>

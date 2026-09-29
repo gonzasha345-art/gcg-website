@@ -110,6 +110,7 @@
   border-radius: 24px;
   overflow: hidden;
   box-shadow: var(--shadow);
+  align-items: stretch;
 }
 
 .service-card__image {
@@ -117,14 +118,23 @@
   height: 100%;
   min-height: 220px;
   object-fit: cover;
+  display: block;
 }
 
 .service-card__body {
   padding: 1.5rem;
+  min-width: 0;
 }
 
 .service-card__body h3 {
   margin-top: 0;
+  word-break: break-word;
+}
+
+.service-card__body p,
+.service-card__body li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .service-card__body ul {
@@ -144,6 +154,15 @@
     display: grid;
   }
 
+  .service-card__image {
+    min-height: 180px;
+    max-height: 280px;
+  }
+
+  .service-card__body {
+    padding: 1.25rem;
+  }
+
   .site-nav ul {
     justify-content: flex-start;
   }
@@ -160,6 +179,18 @@
 
   .brand__logo {
     width: 200px;
+  }
+
+  .service-card {
+    border-radius: 18px;
+  }
+
+  .service-card__body {
+    padding: 1rem 1rem 1.25rem;
+  }
+
+  .service-card__body h3 {
+    font-size: 1.5rem;
   }
 
   .site-nav ul {
